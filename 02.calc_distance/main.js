@@ -62,7 +62,7 @@ class App
 			let p2 = {lat: (p.lat()+p1.lat())/2, lng: (p.lng()+p1.lng())/2}
 			let infow = new google.maps.InfoWindow({
 				map: this.map,
-				//position: p2,
+				position: p2,
 				content: dist.toFixed(1) + ' km',
 				disableAutoPan: true,
 			})
