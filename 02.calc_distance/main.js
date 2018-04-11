@@ -52,7 +52,7 @@ class App
 			let line = new google.maps.Polyline({
 				map: this.map,
 				path: [p, p1],
-				//geodesic: true,
+				geodesic: true,
 				strokeColor: '#ff00000',
 				strokeOpacity: .5,
 				strokeWeight: 2,
